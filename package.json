@@ -1,0 +1,32 @@
+{
+  "name": "discord-jokes-bot",
+  "version": "0.1.0",
+  "description": "Discord dev jokes bot",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config ./src",
+    "lint": "eslint ./src",
+    "start": "node -r dotenv/config ./src",
+    "test": "jest --setupFiles dotenv/config"
+  },
+  "keywords": [
+    "discord",
+    "discord bot",
+    "bot",
+    "jokes"
+  ],
+  "author": "Zsolt Meszaros",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.1.0",
+    "utils.random": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.9.0",
+    "nodemon": "^1.19.3"
+  }
+}
