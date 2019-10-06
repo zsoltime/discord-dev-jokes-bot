@@ -2,6 +2,10 @@
 
 > Discord bot that posts dad style programming jokes.
 
+<p align="center">
+  <img src="preview.png?raw=true" alt="" width="600" />
+</p>
+
 ## Tools Used
 
 - [Discord.js](https://www.npmjs.com/package/discord.js) to interact with the Discord API easily
