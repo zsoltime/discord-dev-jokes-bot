@@ -56,7 +56,7 @@ function handleIncomingMessage(message) {
     return;
   }
 
-  message.channel.send('Did someone menion me?');
+  message.channel.send('Did someone mention me?');
   message.channel.send(
     "If you want me to tell a joke, just say so. Don't forget to mention my name though 😉"
   );
